@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Karla:wght@800&display=swap');
+
+body {
+    background-color: #1F2937;
+    margin: 0;
+   
+}
+.main{
+    /* border:1px solid white; */
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    margin-left: 10vw;
+    margin-top: 10vh;
+    /* width: 800px; */
+
+}
+
+.mainText{
+
+    color: #FFFFFF;
+    font-family: 'Karla';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    height: 80px;  
+    left: 52px; 
+    letter-spacing: -0.025em;
+    line-height: 40px;
+    text-align: start;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 115px;
+    width: 800px; 
+}  
+
+.mainText span{
+    color:#4ADF86
+}
+.mainText h4{ 
+    color: #D5D4D8;
+    font-family: 'Inter';
+    font-size: 2.8rem;
+    font-style: normal;
+    line-height: 28px;
+  
+    
+   
+ 
+}
+
+.btn {
+    background: #10B981;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    color:white;
+    font-size: 0.7em;
+    font-weight: light;
+    height: 80px;
+    letter-spacing:1px;
+    width: 300px;
+
+    
+
+
+}
+.btn:hover{
+    border: 2px solid white;
+
+
+}
+.pass{
+    border: 2px solid #2F3E53;
+    display: flex;
+    height: 0px;
+    
+    justify-content: space-between;
+    left: 52px;
+    margin-top: 35px;
+    top: 361px;
+    width: 800px;
+    
+   
+    
+}
+
+.password {
+    background: #273549;
+    border-radius: 8px;
+    color:#55F991;
+    font-size: 22px;
+    font-weight: 100;
+    height: 50px;
+    /* left: 52px; */
+    letter-spacing: 0.1rem;
+    /* margin-left: 40px; */
+    /* margin-right: 20px; */
+    padding-top: 10px;
+    text-align: center;
+    top: 396px;
+    width: 375px;
+}
+
+  
