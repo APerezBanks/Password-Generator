@@ -7,13 +7,12 @@ body {
    
 }
 .main{
-    /* border:1px solid white; */
+   
     display: flex;
     flex-direction: column;
-    /* height: 500px; */
     margin-left: 10vw;
     margin-top: 10vh;
-    /* width: 800px; */
+    
 
 }
 
@@ -43,11 +42,10 @@ body {
     font-size: 2.8rem;
     font-style: normal;
     line-height: 28px;
-  
-    
    
  
 }
+
 
 .btn {
     background: #10B981;
@@ -60,7 +58,7 @@ body {
     height: 80px;
     letter-spacing:1px;
     width: 300px;
-
+    
     
 
 
@@ -72,6 +70,7 @@ body {
 }
 .pass{
     border: 2px solid #2F3E53;
+    cursor:copy;
     display: flex;
     height: 0px;
     
@@ -92,10 +91,7 @@ body {
     font-size: 22px;
     font-weight: 100;
     height: 50px;
-    /* left: 52px; */
     letter-spacing: 0.1rem;
-    /* margin-left: 40px; */
-    /* margin-right: 20px; */
     padding-top: 10px;
     text-align: center;
     top: 396px;
